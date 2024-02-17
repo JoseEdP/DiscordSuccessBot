@@ -37,3 +37,8 @@ tr:nth-child(even){background-color:#f2f2f2}
 .export-fields label {
     margin-right: 15px;
 }
+
+#tableContainer {
+    max-height: 400px; /* Set a fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
