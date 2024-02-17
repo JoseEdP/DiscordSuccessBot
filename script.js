@@ -1,6 +1,6 @@
 var apiResponse=[];
 var currentPage=1;
-var itemsPerPage=100;
+var itemsPerPage=10;
 
 function loadData(){
     fetch('https://boiling-oasis-31121-583e8833575b.herokuapp.com/proxies')
