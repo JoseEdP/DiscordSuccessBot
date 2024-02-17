@@ -111,6 +111,13 @@ function nextPage(){
     }
 }
 
+function prevPage() {
+    if (currentPage > 1) {
+        currentPage--;
+        updateTable();
+    }
+}
+
 function changeItemsPerPage(value){
     itemsPerPage=parseInt(value);
     currentPage=1;
